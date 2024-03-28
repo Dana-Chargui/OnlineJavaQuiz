@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width-=device-width,intial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Quiz page</title>
+    </head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <body onload="startTimer()">
+
+        <header id="main-header">Online Quiz
+            <nav class="navigation">
+                <a href="index.html">Home</a>
+                <a href="info.htm">Information</a>
+            </nav>
+        </header>
+
+        <div id='container'>
+            <div id='title'>
+                <h2>Test your java knowledge with this quiz!</h2>
+            </div>
+            <br/>
+            <div id='quiz'></div>
+            <div class='button' id='next'><a href=''>Next</a></div>
+            <div class='button' id='prev'><a href='#'>Prev</a></div>
+            <div class='button' id='start'><a href='#'>Start Over</a></div>
+        </div>
+        <script src="script.js"></script>
+
+        <div id="timer"></div>
+
+    </body>
+</html>
